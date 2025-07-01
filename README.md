@@ -9,11 +9,11 @@
 
 ## Instrucciones detalladas para levantar y probar la aplicación
 
---- despues de clonar el repositorio ponemos: docker-compose -p proyecto up --build para levantar la aplicacion
+- despues de clonar el repositorio ponemos: docker-compose -p proyecto up --build para levantar la aplicacion
 
 ##  Explicación de las decisiones técnicas tomadas
---- Se eligió una aplicación web desarrollada en Node.js con Express por las siguientes razones: Es liviana, rápida y adecuada para pruebas de despliegue contenerizado, Facilita la creación de APIs RESTful, Es ampliamente compatible con Docker y fácil de escalar horizontalmente.
---- Se usó MySQL como motor de base de datos por los siguientes motivos: Es ampliamente conocido, estable y probado en entornos de producción y existe una imagen oficial lista para usar en Docker (mysql:5.7), lo que simplifica la contenerización.
---- El balanceador que se uso fue Nginx
+- Se eligió una aplicación web desarrollada en Node.js con Express por las siguientes razones: Es liviana, rápida y adecuada para pruebas de despliegue contenerizado, Facilita la creación de APIs RESTful, Es ampliamente compatible con Docker y fácil de escalar horizontalmente.
+- Se usó MySQL como motor de base de datos por los siguientes motivos: Es ampliamente conocido, estable y probado en entornos de producción y existe una imagen oficial lista para usar en Docker (mysql:5.7), lo que simplifica la contenerización.
+- El balanceador que se uso fue Nginx
 
 
