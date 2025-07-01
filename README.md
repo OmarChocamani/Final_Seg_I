@@ -10,6 +10,7 @@
 ## Instrucciones detalladas para levantar y probar la aplicación
 
 - despues de clonar el repositorio ponemos: docker-compose -p proyecto up --build para levantar la aplicacion
+- Entrar a localhost:80 en el navegador, y se recargamos la pagina ira cambiando de un contenedor a otro lo que nos mostrara hola desde app1, hola desde app2 y hola desde app3.
 
 ##  Explicación de las decisiones técnicas tomadas
 - Se eligió una aplicación web desarrollada en Node.js con Express por las siguientes razones: Es liviana, rápida y adecuada para pruebas de despliegue contenerizado, Facilita la creación de APIs RESTful, Es ampliamente compatible con Docker y fácil de escalar horizontalmente.
