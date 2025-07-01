@@ -13,14 +13,8 @@ Este proyecto implementa una arquitectura contenerizada para una aplicación web
 - **1 contenedor MySQL**: almacena los productos. Los datos se inicializan desde un script `init.sql` y se persisten usando volúmenes.
 - **1 contenedor Nginx**: actúa como proxy inverso y balanceador de carga, distribuyendo el tráfico de forma round-robin a las instancias.
 
-> Todas las instancias están conectadas por una red interna de Docker (`app_net`), y solo el balanceador es accesible desde el exterior por el puerto `80`.
+# Todas las instancias están conectadas por una red interna de Docker (`app_net`), y solo el balanceador es accesible desde el exterior por el puerto `80`.
 
 ---
 
-## ⚙️ Instrucciones para ejecutar
 
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
