@@ -5,7 +5,7 @@
 ---** Tres instancias de aplicación web Node.js (app1, app2, app3) ejecutadas como contenedores independientes. 
 --** Una base de datos MySQL contenerizada (db) que almacena información persistente.
 -** Un balanceador de carga Nginx (nginx_lb), configurado como proxy inverso para distribuir el tráfico entrante.
---- Todos los servicios están interconectados a través de una red virtual interna de Docker llamada app_net.
+** Todos los servicios están interconectados a través de una red virtual interna de Docker llamada app_net.
 
 ## Instrucciones detalladas para levantar y probar la aplicación
 
